@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | Muhammad Rackha</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik&display=swap" rel="stylesheet" />
+	</head>
+	<body id="home">
+		<div class="hero">
+			<nav data-aos="fade-down">
+				<div class="logo">
+					<h2>M<span>R</span>F</h2>
+				</div>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skill">Skill</a></li>
+					<li><a href="#project">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<div class="menu-toggle">
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			<div class="content">
+				<h4>Hi, saya</h4>
+				<h1>
+					Muhammad
+					<span>Rackha</span>
+				</h1>
+			</div>
+		</div>
+		<section class="about" id="about">
+			<div class="main">
+				<img src="img/me2.jpg" alt="me" data-aos="fade-right" />
+				<div class="about-text" data-aos="fade-left">
+					<h2>About Me</h2>
+					<h5>Mahasiswa</h5>
+					<p>
+						Halo, nama saya Muhammad Rackha Fauziansyah dan saya adalah mahasiswa teknik informatika di Universitas Pasundan. Saya memiliki keinginan untuk menjadi web development dan programmer. Selain itu, saya juga memiliki minat dalam
+						bidang fotography dan sedang belajar mengenai teknik-teknik dalam bidang tersebut.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper-skill" id="skill">
+			<div class="skill" data-aos="zoom-out">
+				<h1>Skill</h1>
+				<li>
+					<h3>html</h3>
+					<span class="bar"><span class="html"></span></span>
+				</li>
+				<li>
+					<h3>css</h3>
+					<span class="bar"><span class="css"></span></span>
+				</li>
+			</div>
+		</section>
+		<section class="project" id="project">
+			<div class="wrapper">
+				<h2 data-aos="fade-up">Project</h2>
+				<div class="wrapper-project">
+					<div class="project-items" data-aos="fade-right">
+						<img src="img/1.jpg" alt="project" />
+						<div class="layer">
+							<h5>Website Sederhana</h5>
+						</div>
+					</div>
+					<div class="project-items" data-aos="flip-left">
+						<img src="img/2.jpg" alt="project" />
+						<div class="layer">
+							<h5>Website</h5>
+						</div>
+					</div>
+					<div class="project-items" data-aos="flip-right">
+						<img src="img/3.jpg" alt="project" />
+						<div class="layer">
+							<h5>Light Box</h5>
+						</div>
+					</div>
+					<div class="project-items" data-aos="fade-left">
+						<img src="img/4.jpg" alt="project" />
+						<div class="layer">
+							<h5>Bootstrap Company Profile</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="contact-form">
+				<h1>Contact</h1>
+				<form action="">
+					<input type="text" placeholder="Your Name" />
+					<input type="email" placeholder="email" placeholder="E-mail" />
+					<textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
+					<input type="submit" class="btn" />
+				</form>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="wrapper-footer">
+				<div class="link-footer">
+					<ul>
+						<li class="items-footer">
+							<a href="https://instagram.com/__________racka"> <i class="fa-brands fa-instagram"></i> </a>
+						</li>
+					</ul>
+				</div>
+				<div class="link-porto">
+					<ul>
+						<li class="link-items"><a href="#home">Home</a></li>
+						<li class="link-items"><a href="#about">About</a></li>
+						<li class="link-items"><a href="#skill">Skill</a></li>
+						<li class="link-items"><a href="#project">Project</a></li>
+						<li class="link-items"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="outer-footer">
+					<p>Copyright &copy;</p>
+				</div>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: "2000",
+				once: true,
+			});
+		</script>
+	</body>
+</html>
