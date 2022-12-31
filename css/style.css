@@ -488,6 +488,9 @@ form textarea {
 /* responsive */
 /* tablet */
 @media screen and (max-width: 768px) {
+	.hero {
+		background-position: 80%;
+	}
 	.content {
 		position: absolute;
 		top: 80%;
@@ -549,96 +552,6 @@ form textarea {
 /* mobile */
 @media screen and (max-width: 576px) {
 	.hero {
-		background-position: right;
-	}
-
-	.content {
-		position: absolute;
-		top: 80%;
-		left: 10%;
-	}
-
-	.menu-toggle {
-		display: flex;
-	}
-	nav ul {
-		position: absolute;
-		flex-direction: column;
-		right: 0;
-		top: 0;
-		width: 100%;
-		height: 100vh;
-		background-color: #191919;
-		color: white;
-		align-items: center;
-		justify-content: space-evenly;
-		transform: translateX(100%);
-		transition: all 1s;
-		z-index: -3;
-		opacity: 0;
-	}
-
-	nav ul.slide {
-		opacity: 0.9;
-		transform: translateX(0);
-	}
-
-	.main {
-		flex-direction: column;
-	}
-
-	.about-text {
-		padding-top: 40px;
-		width: 100%;
-		text-align: center;
-	}
-
-	.about-text h2 {
-		font-size: 35px;
-		margin-bottom: 40px;
-	}
-
-	.skill {
-		width: 400px;
-		margin: 40px auto;
-		padding: 30px;
-	}
-	.project {
-		height: 100%;
-	}
-	.project .wrapper h2 {
-		margin: 50px 0;
-	}
-
-	.project .wrapper .wrapper-project {
-		display: grid;
-		grid-gap: 30px;
-		grid-template-columns: repeat(1, 1fr);
-		width: 100%;
-	}
-
-	.contact-form h1 {
-		font-size: 30px;
-	}
-
-	.contact-form form input,
-	form textarea {
-		width: 60%;
-		font-size: 1rem;
-		border-radius: 15px;
-	}
-
-	.contact-form textarea {
-		height: 150px;
-	}
-
-	.link-porto {
-		width: 500px;
-	}
-}
-
-@media screen and (max-width: 414px) {
-	.hero {
 		background-position: 80%;
 	}
 
@@ -671,6 +584,10 @@ form textarea {
 	nav ul.slide {
 		opacity: 0.9;
 		transform: translateX(0);
+	}
+
+	.main {
+		flex-direction: column;
 	}
 
 	.about-text {
